@@ -1,0 +1,8 @@
+xterm*foreground:       rgb:a8/a8/a8
+xterm*background:       rgb:00/00/00
+xterm*font:     -*-terminus-medium-r-normal-*-14-*-*-*-*-*-*-*
+
+URxvt.font: -*-terminus-medium-r-normal-*-14-*-*-*-*-*-*-*
+URxvt.foreground: rgb:a8/a8/a8
+URxvt.background: rgb:00/00/00
+URxvt.scrollBar: false
