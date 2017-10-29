@@ -1,4 +1,5 @@
 set nocompatible
+set tabstop=4
 syntax on
 filetype plugin indent on
 execute pathogen#infect()
