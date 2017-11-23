@@ -1,0 +1,4 @@
+#!/bin/bash
+ssh-agent sway
+killall swaybar.sh
+

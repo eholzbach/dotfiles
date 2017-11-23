@@ -1,9 +1,12 @@
-background no
-out_to_console yes
-update_interval 5.0
-total_run_times 0
-use_spacer none
+conky.config = {
+	background = false,
+	out_to_console = true,
+	update_interval = 5.0,
+	total_run_times = 0,
+	use_spacer = 'none',
 
-TEXT
-| cpu: ${cpu}% | ram: ${memperc}% | swap: ${swapperc}% | 
+};
 
+conky.text = [[
+| temp: $acpitemp | cpu: ${cpu}% | ram: ${memperc}% | ${battery_short} |
+]];
