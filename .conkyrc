@@ -8,5 +8,5 @@ conky.config = {
 };
 
 conky.text = [[
-| temp: $acpitemp | cpu: ${cpu}% | ram: ${memperc}% | ${battery_short} |
+load ${loadavg 1} | ram ${memperc}% | ${battery} |
 ]];
