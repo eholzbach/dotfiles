@@ -1,11 +1,4 @@
-!xterm*foreground:       rgb:a8/a8/a8
-!xterm*background:       rgb:00/00/00
-!xterm*font:     -*-terminus-medium-r-normal-*-18-*-*-*-*-*-*-*
-
-!URxvt.font: -*-terminus-medium-r-normal-*-16-*-*-*-*-*-*-*
-URxvt.font: xft:DejaVu Sans Mono:size=10 
-!URxvt.foreground: rgb:a8/a8/a8
-!URxvt.background: rgb:00/00/00
+URxvt.font: xft:InputMonoNarrow:size=12
 URxvt.scrollBar: false
 URxvt.urgentOnBell: true
 URxvt.internalBorder: 10

@@ -1,10 +1,7 @@
 set nocompatible
-set number
-set tabstop=4
 syntax on
 filetype plugin indent on
-execute pathogen#infect()
-
-let g:gruvbox_contrast_dark = 'hard'
-colorscheme gruvbox
+colorscheme nord 
 set background=dark
+let laststatus=2
+let g:airline_powerline_fonts = 1
