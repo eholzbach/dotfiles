@@ -1,7 +1,8 @@
-URxvt.font: xft:Hack:size=11
+URxvt.font: xft:Hack:size=10
+URxvt.internalBorder: 10
+URxvt.letterSpace: -1
 URxvt.scrollBar: false
 URxvt.urgentOnBell: true
-URxvt.internalBorder: 10
 
 ! +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ! title      Nord XResources                                    +
