@@ -9,3 +9,5 @@ watch=all
 export GOPATH=$HOME/devel/go
 export PATH="$PATH:$HOME/bin/:/usr/local/go/bin:$GOPATH/bin"
 alias startx='startx -- -nolisten tcp'
+alias ls='ls --color'
+alias vi='vim'
