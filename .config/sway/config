@@ -187,7 +187,7 @@ bindsym $mod+r mode "resize"
 # Read `man 5 sway-bar` for more information about this section.
 bar {
     position top
-
+    font pango:Hack 10
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
     status_command ~/bin/swaybar.sh 
@@ -195,7 +195,7 @@ bar {
     colors {
         statusline #ffffff
         background #323232
-        inactive_workspace #32323200 #32323200 #5c5c5c
+        inactive_workspace #323232 #81a1c1 #5c5c5c
     }
 }
 
