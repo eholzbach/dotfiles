@@ -2,7 +2,7 @@
 
 ### Variables
 #
-# Mod key 
+# Mod key
 set $mod Mod4
 # Home row direction keys, like vim
 set $left h
@@ -190,18 +190,21 @@ bar {
     font pango:Hack 10
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
-    status_command ~/bin/swaybar.sh 
+    status_command ~/bin/swaybar.sh
 
     colors {
-        statusline #ffffff
-        background #323232
-        inactive_workspace #323232 #81a1c1 #5c5c5c
+        statusline #d8dee9
+        background #2e3440
+        inactive_workspace #3b4252 #5e81ac #4c566a
+        focused_workspace #434c5e #81a1c1 #d8dee9
     }
 }
 
-# disable title bar
+# Windows
 default_border pixel 1
-
+# class                 border  backgr. text    indicator child_border
+client.focused          #4c7899 #285577 #ffffff #2e9ef4 #8fbcbb
+client.unfocused        #333333 #222222 #888888 #292d2e #4c566a
 #
 # Background bits
 #
