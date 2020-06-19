@@ -21,16 +21,15 @@ output * bg ~/.wall.jpg fill
 
 ### Input configuration
 # Read `man 5 sway-input` for more information about this section.
-
-input "1739:32172:SYN1B7F:00_06CB:7DAC_Touchpad" {
-	tap enabled
-	natural_scroll enabled
+input "1739:52544:SYNA7DAB:00_06CB:CD40_Touchpad" {
+    tap enabled
+    natural_scroll enabled
 }
 
 input type:keyboard {
-	xkb_layout us,us
-	xkb_variant ,colemak
-	xkb_options ctrl:nocaps,grp:menu_toggle,altwin:swap_lalt_lwin
+    xkb_layout us,us
+    xkb_variant ,colemak
+    xkb_options ctrl:nocaps,grp:rctrl_rshift_toggle,altwin:swap_lalt_lwin
 }
 
 ### Key bindings
@@ -154,8 +153,8 @@ input type:keyboard {
 #
     bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
     bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5%
-    bindsym XF86MonBrightnessUp exec brightnessctl s +5%
-    bindsym XF86MonBrightnessDown exec brightnessctl s 5%-
+    bindsym XF86MonBrightnessUp exec brightnessctl s 5%-
+    bindsym XF86MonBrightnessDown exec brightnessctl s +5%
 #
 # Resizing containers:
 #
@@ -209,7 +208,7 @@ client.unfocused        #333333 #222222 #888888 #292d2e #4c566a
 # Background bits
 #
 exec --no-startup-id redshift -m wayland
-
+exec xrdb ~/.Xresources
 #
 # Application workspace assignments
 #

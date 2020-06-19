@@ -2,6 +2,7 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 bindkey -v
+bindkey '^R' history-incremental-search-backward
 autoload -Uz compinit
 compinit
 PROMPT='%m:%~%# '
