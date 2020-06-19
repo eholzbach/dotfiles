@@ -153,6 +153,7 @@ input type:keyboard {
 #
     bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
     bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5%
+    bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle
     bindsym XF86MonBrightnessUp exec brightnessctl s 5%-
     bindsym XF86MonBrightnessDown exec brightnessctl s +5%
 #
