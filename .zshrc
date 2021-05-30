@@ -12,3 +12,4 @@ export PATH="$PATH:$HOME/bin/:/usr/local/go/bin:$GOPATH/bin"
 alias startx='startx -- -nolisten tcp'
 alias ls='ls --color'
 alias vi='vim'
+alias audacity='env GDK_BACKEND=x11 audacity'
